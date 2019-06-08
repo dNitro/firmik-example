@@ -55,8 +55,8 @@ class App extends React.Component {
                 }}
                 /* validationSchema={Yup.object().shape({
                   email: Yup.string()
-                    .email(i18n._(t`email address is invalid`))
-                    .required(i18n._(t`email is required`))
+                    .email(i18n._(t`invalid email address`))
+                    .required(i18n._(t`required`))
                 })} */
                 validate={values => {
                   let errors = {};
